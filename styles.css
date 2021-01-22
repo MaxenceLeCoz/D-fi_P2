@@ -1,0 +1,41 @@
+/*------------- Général -----------------*/
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url(Open_Sans/OpenSans-Regular.ttf);
+
+}
+
+/*------------- Header -----------------*/
+
+header {
+
+    display: flex;
+    border: 3px solid black;
+    width: 100%;
+   
+}
+
+.logo {
+border: 3px solid red;
+}
+
+.menu {
+border: 3px solid red;
+float: right;
+position: absolute ;
+width: 200px;
+height: 110px;
+right: 0%;
+
+}
+
+li{
+    border: 3px solid blue;
+    display: inline-block;
+    width: 72px;
+    float: left;
+
+}
+
+/*---------------Section----------------*/
+/*---------------Footer-----------------*/
