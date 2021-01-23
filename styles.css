@@ -34,9 +34,13 @@ display:flex
 nav li{
     /*border: 3px solid blue;*/
    list-style: none;
-   padding-left: 30px;  
+   padding-left: 30px;
 }
 
+nav li a {
+    text-decoration: none;
+    color: black;
+}
 /*--------------------Section-------------------------------------------------------*/
 section {
     margin-top: 0;
@@ -103,4 +107,12 @@ margin-top: 30px;
 
 }
 /*---------------Footer-----------------*/
+footer {
+    background-color: #5b359d;
+    padding-top: 18px;
+}
 
+.rsociaux svg{
+
+    height: 30px;
+}
