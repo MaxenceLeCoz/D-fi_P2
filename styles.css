@@ -80,7 +80,7 @@ section {
 .banniere_logo h1 {
     color: white;
     font-weight: 400;
-
+    font-size: 31px;
 }
 
 /*---------------------------------------------------------------------------------------*/
@@ -151,9 +151,49 @@ font-weight: 300px;
 footer {
     background-color: #5b359d;
     padding-top: 18px;
+    /*border: 3px solid orangered;*/  
+}
+
+footer h2 {
+    text-align: center;
+    color: white;
+    font-size: 12.5px;
+    
+}
+.rsociaux {
+    margin-top: 20px;
+    display:flex;
+    justify-content: space-around;
+    width: 325px;
+    margin: 0 auto;
+   /* border: 3px solid orangered;*/
 }
 
 .rsociaux svg{
 
     height: 30px;
+    /*border: 3px solid orangered;*/
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.rso {
+display: flex;
+justify-content: space-around;
+}
+
+.footer2 {
+    display: flex;
+    justify-content: space-around;
+   /* border: 3px solid turquoise;*/
+}
+
+.fin h3 {
+color:rgba(255, 255, 255, 0.5);
+font-weight: normal;
+font-size: 15px;
+}
+
+.fin ul,.fin p {
+    color: white;
+    font-size: 15px;
 }
